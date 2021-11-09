@@ -1,0 +1,9 @@
+﻿l_german:
+ brs_decision:0 "Das Römische Reich wiederherstellen"
+ brs_decision_confirm:0 "Ich werde das Kaiserreich wiederherstellen"
+ brs_decision_tooltip:0 "Das Römische Reich wird wiederhergestellt"
+ brs_decision_desc:0 "Wenn Rom und andere Schlüsselgebiete des alten Reiches erneut erobert werden könnten, so würde das Byzantinische Reich in den Augen der westlichen Welt sicherlich als die wahre und rechtmäßige Fortführung des Römischen Reiches anerkannt werden."
+ brs_decision_effect_tooltip_1:0 "Das Römische Reich wird wiederhergestellt."
+ brs_decision_effect_tooltip_2:0 "Ihr erhaltet den Titel Römisches Reich."
+ brs_decision_effect_tooltip_3:0 "Alle [vassals|E] nehmen die $roman$e Kultur an."
+ brs_decision_effect_tooltip_4:0 "Alle [vassals|E] konvertieren zum $hellenic_pagan$ Glauben."

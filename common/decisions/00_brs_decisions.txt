@@ -1,0 +1,39 @@
+﻿brs_restore_roman_empire = {
+	title = brs_decision
+	desc = brs_decision_desc
+	confirm_text = brs_decision_confirm
+	picture = "gfx/interface/illustrations/event_scenes/throneroom_mediterranean.dds"
+	major = yes
+
+	ai_goal = no
+	ai_check_interval = 0
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+
+	is_shown = {
+		is_ai = no
+		has_culture = culture:roman
+		has_faith = faith:hellenic_pagan
+		is_independent_ruler = yes
+		NOT = {
+			has_title = title:e_roman_empire
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_roman_empire
+			}
+		}
+	}
+
+	effect = {
+		custom_tooltip = brs_decision_effect_tooltip_1
+		custom_tooltip = brs_decision_effect_tooltip_2
+		custom_tooltip = brs_decision_effect_tooltip_3
+		custom_tooltip = brs_decision_effect_tooltip_4
+		trigger_event = brs.1000
+	}	
+}

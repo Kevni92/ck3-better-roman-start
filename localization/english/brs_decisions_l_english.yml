@@ -1,0 +1,9 @@
+﻿l_english:
+ brs_decision:0 "Restore the Roman Empire"
+ brs_decision_confirm:0 "I will restore the Empire"
+ brs_decision_tooltip:0 "The Roman Empire will be restored"
+ brs_decision_desc:0 "If Rome and other key territories of the old empire could be reclaimed, the Byzantine Empire would win recognition in the eyes of the West as the true and rightful continuation of the Roman State."
+ brs_decision_effect_tooltip_1:0 "The Roman Empire will be restored."
+ brs_decision_effect_tooltip_2:0 "You will receive the title Roman Empire."
+ brs_decision_effect_tooltip_3:0 "All [vassals|E] adopt the $roman$ culture."
+ brs_decision_effect_tooltip_4:0 "All [vassals|E] convert to the $hellenic_pagan$ faith."

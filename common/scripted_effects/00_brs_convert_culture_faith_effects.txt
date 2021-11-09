@@ -1,0 +1,35 @@
+﻿convert_all_to_new_culture_and_religion = {
+	# For localization
+	$NEW_RELIGION$ = { save_scope_as = new_religion }
+	$NEW_CULTURE$ = { save_scope_as = new_culture }
+	
+	hidden_effect = {
+		# Compile a list of everyone who will flip to the new culture.
+		every_vassal_or_below = {
+			add_to_list = characters_to_convert
+			every_courtier = {
+				add_to_list = characters_to_convert
+			}
+		}
+		every_courtier = {
+			add_to_list = characters_to_convert
+		}
+
+		# Flip the player to the new culture.
+		set_culture = $NEW_CULTURE$
+		add_character_flag = converted_culture_this_lifetime
+
+		# Flip their courtiers/vassals with a custom description.
+		every_in_list = {
+			list = characters_to_convert
+			set_culture = $NEW_CULTURE$
+			set_character_faith = $NEW_RELIGION$
+		}
+
+		# Then flip all their counties.
+		every_sub_realm_county = {
+			set_county_culture = $NEW_CULTURE$
+			set_county_faith = $NEW_RELIGION$
+		}
+	}
+}

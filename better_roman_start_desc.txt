@@ -1,0 +1,11 @@
+[img]https://i.imgur.com/vcjkAey.png[/img]
+
+[h1] Better Roman Start [/h1] 
+Better Roman Start is a quick and easy way to start playing with the Roman Empire. Start as a count, duke or king with the Roman culture and faith and get the Empire title by decision. All your vassals will adopt your faith and culture.
+
+[h2][url=https://github.com/Kevni92/ck3-better-roman-start.git]Github Page[/url] [/h2]
+
+[h2]Developers[/h2]  
+[list]
+[*] [url=https://steamcommunity.com/id/kevni92]Dubbe92[/url]
+[/list]

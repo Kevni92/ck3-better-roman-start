@@ -1,0 +1,13 @@
+create_roman_empire_effect = {
+	hidden_effect = {
+		every_county_in_region = {
+			region = custom_roman_full_borders
+			kingdom = { add_to_list = roman_kingdom_list }
+		}
+
+		every_in_list = {
+			list = roman_kingdom_list
+			set_de_jure_liege_title = title:e_roman_empire
+		}
+	}
+}

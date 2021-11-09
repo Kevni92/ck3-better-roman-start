@@ -1,0 +1,38 @@
+﻿namespace = brs
+
+brs.1000 = {
+	hidden = yes
+	type = empty
+	title = brs_lang.1000.t
+	desc = brs_lang.1000.desc.5
+	theme = default
+
+
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+ 
+	immediate = {
+		hidden_effect  = {
+			convert_all_to_new_culture_and_religion = {
+				NEW_RELIGION = faith:hellenic_pagan
+				NEW_CULTURE = culture:roman
+			}
+			create_roman_empire_effect = yes
+			become_title_holder_effect = {
+				TITLE = title:e_roman_empire
+			}
+			set_primary_title_to = title:e_roman_empire
+			
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_roman_empire
+			}
+			set_global_variable = {
+				name = flag_restored_roman_empire
+				value = root
+			}
+		}
+	}
+}
